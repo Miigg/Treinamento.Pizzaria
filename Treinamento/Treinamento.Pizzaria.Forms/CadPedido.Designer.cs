@@ -32,6 +32,10 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.Registro = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.lblStatusPedido = new System.Windows.Forms.Label();
+            this.lblTipoPedido = new System.Windows.Forms.Label();
+            this.lblNome = new System.Windows.Forms.Label();
+            this.txtStatusPedido = new System.Windows.Forms.TextBox();
             this.txtTipoPedido = new System.Windows.Forms.TextBox();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.btnGravar = new System.Windows.Forms.Button();
@@ -45,10 +49,6 @@
             this.tipoPedidoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.statusPedidoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pedidoBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.txtStatusPedido = new System.Windows.Forms.TextBox();
-            this.lblNome = new System.Windows.Forms.Label();
-            this.lblTipoPedido = new System.Windows.Forms.Label();
-            this.lblStatusPedido = new System.Windows.Forms.Label();
             this.flowLayoutPanel1.SuspendLayout();
             this.Registro.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -95,6 +95,40 @@
             this.tabPage1.Text = "Registro";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // lblStatusPedido
+            // 
+            this.lblStatusPedido.AutoSize = true;
+            this.lblStatusPedido.Location = new System.Drawing.Point(6, 72);
+            this.lblStatusPedido.Name = "lblStatusPedido";
+            this.lblStatusPedido.Size = new System.Drawing.Size(73, 13);
+            this.lblStatusPedido.TabIndex = 6;
+            this.lblStatusPedido.Text = "Status Pedido";
+            // 
+            // lblTipoPedido
+            // 
+            this.lblTipoPedido.AutoSize = true;
+            this.lblTipoPedido.Location = new System.Drawing.Point(6, 44);
+            this.lblTipoPedido.Name = "lblTipoPedido";
+            this.lblTipoPedido.Size = new System.Drawing.Size(64, 13);
+            this.lblTipoPedido.TabIndex = 5;
+            this.lblTipoPedido.Text = "Tipo Pedido";
+            // 
+            // lblNome
+            // 
+            this.lblNome.AutoSize = true;
+            this.lblNome.Location = new System.Drawing.Point(6, 18);
+            this.lblNome.Name = "lblNome";
+            this.lblNome.Size = new System.Drawing.Size(35, 13);
+            this.lblNome.TabIndex = 4;
+            this.lblNome.Text = "Nome";
+            // 
+            // txtStatusPedido
+            // 
+            this.txtStatusPedido.Location = new System.Drawing.Point(95, 69);
+            this.txtStatusPedido.Name = "txtStatusPedido";
+            this.txtStatusPedido.Size = new System.Drawing.Size(100, 20);
+            this.txtStatusPedido.TabIndex = 2;
+            // 
             // txtTipoPedido
             // 
             this.txtTipoPedido.Location = new System.Drawing.Point(95, 41);
@@ -111,7 +145,7 @@
             // 
             // btnGravar
             // 
-            this.btnGravar.Location = new System.Drawing.Point(441, 66);
+            this.btnGravar.Location = new System.Drawing.Point(201, 67);
             this.btnGravar.Name = "btnGravar";
             this.btnGravar.Size = new System.Drawing.Size(75, 23);
             this.btnGravar.TabIndex = 3;
@@ -150,9 +184,9 @@
             // 
             // btnFiltrar
             // 
-            this.btnFiltrar.Location = new System.Drawing.Point(161, 32);
+            this.btnFiltrar.Location = new System.Drawing.Point(61, 32);
             this.btnFiltrar.Name = "btnFiltrar";
-            this.btnFiltrar.Size = new System.Drawing.Size(75, 23);
+            this.btnFiltrar.Size = new System.Drawing.Size(100, 23);
             this.btnFiltrar.TabIndex = 1;
             this.btnFiltrar.Text = "Filtrar";
             this.btnFiltrar.UseVisualStyleBackColor = true;
@@ -208,40 +242,6 @@
             // pedidoBindingSource
             // 
             this.pedidoBindingSource.DataSource = typeof(Treinamento.Pizzaria.Pedido);
-            // 
-            // txtStatusPedido
-            // 
-            this.txtStatusPedido.Location = new System.Drawing.Point(95, 69);
-            this.txtStatusPedido.Name = "txtStatusPedido";
-            this.txtStatusPedido.Size = new System.Drawing.Size(100, 20);
-            this.txtStatusPedido.TabIndex = 2;
-            // 
-            // lblNome
-            // 
-            this.lblNome.AutoSize = true;
-            this.lblNome.Location = new System.Drawing.Point(6, 18);
-            this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(35, 13);
-            this.lblNome.TabIndex = 4;
-            this.lblNome.Text = "Nome";
-            // 
-            // lblTipoPedido
-            // 
-            this.lblTipoPedido.AutoSize = true;
-            this.lblTipoPedido.Location = new System.Drawing.Point(6, 44);
-            this.lblTipoPedido.Name = "lblTipoPedido";
-            this.lblTipoPedido.Size = new System.Drawing.Size(64, 13);
-            this.lblTipoPedido.TabIndex = 5;
-            this.lblTipoPedido.Text = "Tipo Pedido";
-            // 
-            // lblStatusPedido
-            // 
-            this.lblStatusPedido.AutoSize = true;
-            this.lblStatusPedido.Location = new System.Drawing.Point(6, 72);
-            this.lblStatusPedido.Name = "lblStatusPedido";
-            this.lblStatusPedido.Size = new System.Drawing.Size(73, 13);
-            this.lblStatusPedido.TabIndex = 6;
-            this.lblStatusPedido.Text = "Status Pedido";
             // 
             // CadPedido
             // 

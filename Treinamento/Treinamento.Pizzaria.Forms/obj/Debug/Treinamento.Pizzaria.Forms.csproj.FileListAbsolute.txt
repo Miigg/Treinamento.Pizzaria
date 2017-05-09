@@ -11,3 +11,16 @@ D:\Estudo\Projetos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\o
 D:\Estudo\Projetos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\obj\Debug\Treinamento.Pizzaria.Forms.CadPedido.resources
 D:\Estudo\Projetos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\bin\Debug\Treinamento.Pizzaria.exe
 D:\Estudo\Projetos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\bin\Debug\Treinamento.Pizzaria.pdb
+C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\bin\Debug\Treinamento.Pizzaria.Forms.exe.config
+C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\obj\Debug\Treinamento.Pizzaria.Forms.exe
+C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\obj\Debug\Treinamento.Pizzaria.Forms.pdb
+C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\bin\Debug\Treinamento.Pizzaria.Forms.exe
+C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\bin\Debug\Treinamento.Pizzaria.Forms.pdb
+C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\bin\Debug\Treinamento.Pizzaria.exe
+C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\bin\Debug\Treinamento.Pizzaria.pdb
+C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\obj\Debug\Treinamento.Pizzaria.Forms.csprojResolveAssemblyReference.cache
+C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\obj\Debug\Treinamento.Pizzaria.Forms.CadPedido.resources
+C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\obj\Debug\Treinamento.Pizzaria.Forms.CadProduto.resources
+C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\obj\Debug\Treinamento.Pizzaria.Forms.Principal.resources
+C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\obj\Debug\Treinamento.Pizzaria.Forms.Properties.Resources.resources
+C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\obj\Debug\Treinamento.Pizzaria.Forms.csproj.GenerateResource.Cache

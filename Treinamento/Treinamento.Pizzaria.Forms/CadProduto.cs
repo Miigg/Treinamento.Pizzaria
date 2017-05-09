@@ -35,8 +35,10 @@ namespace Treinamento.Pizzaria.Forms
                 lstProduto = new List<Produto>();
                 lstProduto.Add(Produto.WhereProduto(Convert.ToInt32(txtFiltrar.Text)));
             }
-            gridPedido.DataSource = lstProduto;
+
             gridPedido.Refresh();
+            gridPedido.DataSource = lstProduto;
+            
         }
 
         private void btnGravar_Click(object sender, EventArgs e)
@@ -47,6 +49,7 @@ namespace Treinamento.Pizzaria.Forms
             Produto.Ativo = Convert.ToBoolean(checkAtivo.Checked);
 
             Produto.AdicionaProduto(Produto);
+            MessageBox.Show("Produto Inserido!");
         }
 
     }

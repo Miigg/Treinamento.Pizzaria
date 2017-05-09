@@ -47,6 +47,7 @@ namespace Treinamento.Pizzaria.Forms
             Pedido.StatusPedido = Convert.ToChar(txtStatusPedido.Text);
             
             Pedido.AdicionaPedido(Pedido);
+            MessageBox.Show("Pedido Inserido!");
         }
     }
 }

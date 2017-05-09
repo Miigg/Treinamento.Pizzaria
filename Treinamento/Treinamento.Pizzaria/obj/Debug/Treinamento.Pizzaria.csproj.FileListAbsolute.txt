@@ -22,3 +22,6 @@ C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento\Treinamen
 C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\bin\Debug\Treinamento.Pizzaria.exe.config
 C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\obj\Debug\Treinamento.Pizzaria.exe
 C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\obj\Debug\Treinamento.Pizzaria.pdb
+C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\bin\Debug\Treinamento.Pizzaria.exe
+C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\bin\Debug\Treinamento.Pizzaria.pdb
+C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\obj\Debug\Treinamento.Pizzaria.csprojResolveAssemblyReference.cache

@@ -1,0 +1,13 @@
+D:\Estudo\Projetos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\bin\Debug\Treinamento.Pizzaria.Forms.exe.config
+D:\Estudo\Projetos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\bin\Debug\Treinamento.Pizzaria.Forms.exe
+D:\Estudo\Projetos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\bin\Debug\Treinamento.Pizzaria.Forms.pdb
+D:\Estudo\Projetos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\obj\Debug\Treinamento.Pizzaria.Forms.csprojResolveAssemblyReference.cache
+D:\Estudo\Projetos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\obj\Debug\Treinamento.Pizzaria.Forms.Principal.resources
+D:\Estudo\Projetos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\obj\Debug\Treinamento.Pizzaria.Forms.Properties.Resources.resources
+D:\Estudo\Projetos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\obj\Debug\Treinamento.Pizzaria.Forms.csproj.GenerateResource.Cache
+D:\Estudo\Projetos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\obj\Debug\Treinamento.Pizzaria.Forms.exe
+D:\Estudo\Projetos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\obj\Debug\Treinamento.Pizzaria.Forms.pdb
+D:\Estudo\Projetos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\obj\Debug\Treinamento.Pizzaria.Forms.CadProduto.resources
+D:\Estudo\Projetos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\obj\Debug\Treinamento.Pizzaria.Forms.CadPedido.resources
+D:\Estudo\Projetos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\bin\Debug\Treinamento.Pizzaria.exe
+D:\Estudo\Projetos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\bin\Debug\Treinamento.Pizzaria.pdb

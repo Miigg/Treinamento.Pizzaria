@@ -79,7 +79,7 @@
             // 
             // pedidoBindingSource
             // 
-            this.pedidoBindingSource.DataSource = typeof(Treinamento.Pizzaria.Pedido);
+            this.pedidoBindingSource.DataSource = typeof(Treinamento.Pizzaria.PedidoMongo);
             // 
             // label1
             // 
@@ -289,10 +289,6 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.DataGridView gridPedido;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idProdutoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nomeProdutoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn descricaoProdutoDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn ativoDataGridViewCheckBoxColumn;
         private System.Windows.Forms.BindingSource produtoBindingSource;
         private System.Windows.Forms.CheckBox checkAtivo;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;

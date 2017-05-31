@@ -68,6 +68,12 @@
     <Compile Include="CadPedido.Designer.cs">
       <DependentUpon>CadPedido.cs</DependentUpon>
     </Compile>
+    <Compile Include="CadProdutoMongo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadProdutoMongo.Designer.cs">
+      <DependentUpon>CadProdutoMongo.cs</DependentUpon>
+    </Compile>
     <Compile Include="CadPedidoMongo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +96,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CadPedido.resx">
       <DependentUpon>CadPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadProdutoMongo.resx">
+      <DependentUpon>CadProdutoMongo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CadPedidoMongo.resx">
       <DependentUpon>CadPedidoMongo.cs</DependentUpon>

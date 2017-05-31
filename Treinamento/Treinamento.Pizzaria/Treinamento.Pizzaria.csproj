@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Pedido.cs" />
+    <Compile Include="ProdutoMongo.cs" />
     <Compile Include="PedidoMongo.cs" />
     <Compile Include="Produto.cs" />
     <Compile Include="Program.cs" />

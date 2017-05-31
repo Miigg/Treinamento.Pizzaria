@@ -13,9 +13,11 @@ namespace Treinamento.Pizzaria.Forms
     public partial class CadPedidoMongo : Form
     {
         public PedidoMongo PedidoMongo { get; set; }
+        List<PedidoMongo> lstPedidoMongo { get; set; }
         public CadPedidoMongo()
         {
             InitializeComponent();
+            PedidoMongo = new PedidoMongo();
         }
 
         private void btnGravar_Click(object sender, EventArgs e)
@@ -27,6 +29,25 @@ namespace Treinamento.Pizzaria.Forms
 
             PedidoMongo.AdicionaPedido(PedidoMongo);
             MessageBox.Show("Pedido Inserido!");
+        }
+
+        private void btnFiltrar_Click(object sender, EventArgs e)
+        {
+            //lstPedidoMongo.Clear();
+            if (txtFiltrar.Text == "" || txtFiltrar.Text == string.Empty)
+            {
+                lstPedidoMongo = new List<PedidoMongo>();
+                //PedidoMongo.LoadPedido();
+                lstPedidoMongo.AddRange(PedidoMongo.LoadPedido());
+              
+            }
+            else
+            {
+                lstPedidoMongo = new List<PedidoMongo>();
+                lstPedidoMongo.AddRange(PedidoMongo.WherePedido(Convert.ToString(txtFiltrar.Text)));
+            }
+            gridPedido.DataSource = lstPedidoMongo;
+            gridPedido.Refresh();
         }
     }
 }

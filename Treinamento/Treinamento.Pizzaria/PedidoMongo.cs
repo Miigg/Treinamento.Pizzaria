@@ -2,10 +2,9 @@
 using MongoDB.Bson;
 using System;
 using System.Collections.Generic;
-using System.Data;
-using System.Data.SqlClient;
+
 using MongoDB.Bson.Serialization.Attributes;
-using MongoDB.Bson.Serialization;
+
 
 namespace Treinamento.Pizzaria
 {

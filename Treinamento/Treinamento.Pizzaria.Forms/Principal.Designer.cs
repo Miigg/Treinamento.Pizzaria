@@ -33,6 +33,7 @@
             this.pedidoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.produtoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pedidoMongoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.produtoMongoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,7 +52,8 @@
             this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pedidoToolStripMenuItem,
             this.produtoToolStripMenuItem,
-            this.pedidoMongoToolStripMenuItem});
+            this.pedidoMongoToolStripMenuItem,
+            this.produtoMongoToolStripMenuItem});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
             this.menuToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.menuToolStripMenuItem.Text = "Menu";
@@ -59,23 +61,30 @@
             // pedidoToolStripMenuItem
             // 
             this.pedidoToolStripMenuItem.Name = "pedidoToolStripMenuItem";
-            this.pedidoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.pedidoToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.pedidoToolStripMenuItem.Text = "Pedido";
             this.pedidoToolStripMenuItem.Click += new System.EventHandler(this.pedidoToolStripMenuItem_Click);
             // 
             // produtoToolStripMenuItem
             // 
             this.produtoToolStripMenuItem.Name = "produtoToolStripMenuItem";
-            this.produtoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.produtoToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.produtoToolStripMenuItem.Text = "Produto";
             this.produtoToolStripMenuItem.Click += new System.EventHandler(this.produtoToolStripMenuItem_Click);
             // 
             // pedidoMongoToolStripMenuItem
             // 
             this.pedidoMongoToolStripMenuItem.Name = "pedidoMongoToolStripMenuItem";
-            this.pedidoMongoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.pedidoMongoToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.pedidoMongoToolStripMenuItem.Text = "PedidoMongo";
             this.pedidoMongoToolStripMenuItem.Click += new System.EventHandler(this.pedidoMongoToolStripMenuItem_Click);
+            // 
+            // produtoMongoToolStripMenuItem
+            // 
+            this.produtoMongoToolStripMenuItem.Name = "produtoMongoToolStripMenuItem";
+            this.produtoMongoToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.produtoMongoToolStripMenuItem.Text = "ProdutoMongo";
+            this.produtoMongoToolStripMenuItem.Click += new System.EventHandler(this.produtoMongoToolStripMenuItem_Click);
             // 
             // Principal
             // 
@@ -98,6 +107,7 @@
         private System.Windows.Forms.ToolStripMenuItem produtoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pedidoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pedidoMongoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem produtoMongoToolStripMenuItem;
     }
 }
 

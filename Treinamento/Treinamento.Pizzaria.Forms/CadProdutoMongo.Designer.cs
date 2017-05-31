@@ -1,6 +1,6 @@
 ﻿namespace Treinamento.Pizzaria.Forms
 {
-    partial class CadPedidoMongo
+    partial class CadProdutoMongo
     {
         /// <summary>
         /// Required designer variable.
@@ -32,7 +32,6 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.btnGravar = new System.Windows.Forms.Button();
             this.lblStatusPedido = new System.Windows.Forms.Label();
-            this.txtStatusPedido = new System.Windows.Forms.TextBox();
             this.lblTipoPedido = new System.Windows.Forms.Label();
             this.txtTipoPedido = new System.Windows.Forms.TextBox();
             this.lblNome = new System.Windows.Forms.Label();
@@ -42,6 +41,7 @@
             this.lblIdPedido = new System.Windows.Forms.Label();
             this.txtFiltrar = new System.Windows.Forms.TextBox();
             this.gridPedido = new System.Windows.Forms.DataGridView();
+            this.checkAtivo = new System.Windows.Forms.CheckBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -60,9 +60,9 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.checkAtivo);
             this.tabPage1.Controls.Add(this.btnGravar);
             this.tabPage1.Controls.Add(this.lblStatusPedido);
-            this.tabPage1.Controls.Add(this.txtStatusPedido);
             this.tabPage1.Controls.Add(this.lblTipoPedido);
             this.tabPage1.Controls.Add(this.txtTipoPedido);
             this.tabPage1.Controls.Add(this.lblNome);
@@ -77,7 +77,7 @@
             // 
             // btnGravar
             // 
-            this.btnGravar.Location = new System.Drawing.Point(196, 62);
+            this.btnGravar.Location = new System.Drawing.Point(115, 68);
             this.btnGravar.Name = "btnGravar";
             this.btnGravar.Size = new System.Drawing.Size(75, 23);
             this.btnGravar.TabIndex = 6;
@@ -90,25 +90,18 @@
             this.lblStatusPedido.AutoSize = true;
             this.lblStatusPedido.Location = new System.Drawing.Point(7, 64);
             this.lblStatusPedido.Name = "lblStatusPedido";
-            this.lblStatusPedido.Size = new System.Drawing.Size(73, 13);
+            this.lblStatusPedido.Size = new System.Drawing.Size(31, 13);
             this.lblStatusPedido.TabIndex = 5;
-            this.lblStatusPedido.Text = "Status Pedido";
-            // 
-            // txtStatusPedido
-            // 
-            this.txtStatusPedido.Location = new System.Drawing.Point(90, 64);
-            this.txtStatusPedido.Name = "txtStatusPedido";
-            this.txtStatusPedido.Size = new System.Drawing.Size(100, 20);
-            this.txtStatusPedido.TabIndex = 4;
+            this.lblStatusPedido.Text = "Ativo";
             // 
             // lblTipoPedido
             // 
             this.lblTipoPedido.AutoSize = true;
             this.lblTipoPedido.Location = new System.Drawing.Point(7, 38);
             this.lblTipoPedido.Name = "lblTipoPedido";
-            this.lblTipoPedido.Size = new System.Drawing.Size(64, 13);
+            this.lblTipoPedido.Size = new System.Drawing.Size(55, 13);
             this.lblTipoPedido.TabIndex = 3;
-            this.lblTipoPedido.Text = "Tipo Pedido";
+            this.lblTipoPedido.Text = "Descricao";
             // 
             // txtTipoPedido
             // 
@@ -180,14 +173,23 @@
             this.gridPedido.Size = new System.Drawing.Size(511, 266);
             this.gridPedido.TabIndex = 1;
             // 
-            // CadPedidoMongo
+            // checkAtivo
+            // 
+            this.checkAtivo.AutoSize = true;
+            this.checkAtivo.Location = new System.Drawing.Point(90, 68);
+            this.checkAtivo.Name = "checkAtivo";
+            this.checkAtivo.Size = new System.Drawing.Size(15, 14);
+            this.checkAtivo.TabIndex = 7;
+            this.checkAtivo.UseVisualStyleBackColor = true;
+            // 
+            // CadProdutoMongo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(520, 409);
             this.Controls.Add(this.gridPedido);
             this.Controls.Add(this.tabControl1);
-            this.Name = "CadPedidoMongo";
+            this.Name = "CadProdutoMongo";
             this.Text = "CadPedidoMongo";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
@@ -205,7 +207,6 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Label lblStatusPedido;
-        private System.Windows.Forms.TextBox txtStatusPedido;
         private System.Windows.Forms.Label lblTipoPedido;
         private System.Windows.Forms.TextBox txtTipoPedido;
         private System.Windows.Forms.Label lblNome;
@@ -215,5 +216,6 @@
         private System.Windows.Forms.Label lblIdPedido;
         private System.Windows.Forms.TextBox txtFiltrar;
         private System.Windows.Forms.DataGridView gridPedido;
+        private System.Windows.Forms.CheckBox checkAtivo;
     }
 }

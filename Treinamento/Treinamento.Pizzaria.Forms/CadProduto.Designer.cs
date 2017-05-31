@@ -79,7 +79,7 @@
             // 
             // pedidoBindingSource
             // 
-            this.pedidoBindingSource.DataSource = typeof(Treinamento.Pizzaria.PedidoMongo);
+            this.pedidoBindingSource.DataSource = typeof(Treinamento.Pizzaria.ProdutoMongo);
             // 
             // label1
             // 

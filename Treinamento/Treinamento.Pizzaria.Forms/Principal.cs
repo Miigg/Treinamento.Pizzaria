@@ -34,5 +34,11 @@ namespace Treinamento.Pizzaria.Forms
             CadPedidoMongo CadPedidoMongo = new CadPedidoMongo();
             CadPedidoMongo.ShowDialog();
         }
+
+        private void produtoMongoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CadProdutoMongo CadProdutoMongo = new CadProdutoMongo();
+            CadProdutoMongo.ShowDialog();
+        }
     }
 }

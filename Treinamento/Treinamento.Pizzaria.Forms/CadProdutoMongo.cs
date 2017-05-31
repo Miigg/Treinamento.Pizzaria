@@ -10,25 +10,25 @@ using System.Windows.Forms;
 
 namespace Treinamento.Pizzaria.Forms
 {
-    public partial class CadPedidoMongo : Form
+    public partial class CadProdutoMongo : Form
     {
-        public PedidoMongo PedidoMongo { get; set; }
-        List<PedidoMongo> lstPedidoMongo { get; set; }
-        public CadPedidoMongo()
+        public ProdutoMongo ProdutoMongo { get; set; }
+        List<ProdutoMongo> lstProdutoMongo { get; set; }
+        public CadProdutoMongo()
         {
             InitializeComponent();
-            PedidoMongo = new PedidoMongo();
+            ProdutoMongo = new ProdutoMongo();
         }
 
         private void btnGravar_Click(object sender, EventArgs e)
         {
-            PedidoMongo = new PedidoMongo();
-            PedidoMongo.NomePedido = txtNome.Text;
-            PedidoMongo.TipoPedido = txtTipoPedido.Text;
-            PedidoMongo.StatusPedido = txtStatusPedido.Text;
+            ProdutoMongo = new ProdutoMongo();
+            ProdutoMongo.NomeProduto = txtNome.Text;
+            ProdutoMongo.DescricaoProduto = txtTipoPedido.Text;
+            ProdutoMongo.Ativo = Convert.ToBoolean(checkAtivo.Checked);
 
-            PedidoMongo.AdicionaPedido(PedidoMongo);
-            MessageBox.Show("Pedido Inserido!");
+            ProdutoMongo.AdicionaProduto(ProdutoMongo);
+            MessageBox.Show("Produto Inserido!");
         }
 
         private void btnFiltrar_Click(object sender, EventArgs e)
@@ -36,17 +36,17 @@ namespace Treinamento.Pizzaria.Forms
             //lstPedidoMongo.Clear();
             if (txtFiltrar.Text == "" || txtFiltrar.Text == string.Empty)
             {
-                lstPedidoMongo = new List<PedidoMongo>();
+                lstProdutoMongo = new List<ProdutoMongo>();
                 //PedidoMongo.LoadPedido();
-                lstPedidoMongo.AddRange(PedidoMongo.LoadPedido());
+                lstProdutoMongo.AddRange(ProdutoMongo.LoadProduto());
               
             }
             else
             {
-                lstPedidoMongo = new List<PedidoMongo>();
-                lstPedidoMongo.AddRange(PedidoMongo.WherePedido(Convert.ToString(txtFiltrar.Text)));
+                lstProdutoMongo = new List<ProdutoMongo>();
+                lstProdutoMongo.AddRange(ProdutoMongo.WhereProduto(Convert.ToString(txtFiltrar.Text)));
             }
-            gridPedido.DataSource = lstPedidoMongo;
+            gridPedido.DataSource = lstProdutoMongo;
             gridPedido.Refresh();
         }
     }

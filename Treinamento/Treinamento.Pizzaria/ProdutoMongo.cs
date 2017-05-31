@@ -8,57 +8,58 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace Treinamento.Pizzaria
 {
-    public class PedidoMongo
+    public class ProdutoMongo
     {
         [BsonId]
-        public ObjectId IdPedido { get; set; }
-        [BsonElement("NomePedido")]
-        public string NomePedido { get; set; }
-        [BsonElement("TipoPedido")]
-        public string TipoPedido { get; set; }
-        [BsonElement("StatusPedido")]
-        public string StatusPedido { get; set; }
+        public ObjectId IdProduto { get; set; }
+        [BsonElement("NomeProduto")]
+        public string NomeProduto { get; set; }
+        [BsonElement("DescricaoProduto")]
+        public string DescricaoProduto { get; set; }
+        [BsonElement("Ativo")]
+        public bool Ativo { get; set; }
+               
 
-        public bool AdicionaPedido(PedidoMongo pedido)
+        public bool AdicionaProduto(ProdutoMongo produto)
         {
 
             var client = new MongoClient("mongodb://localhost:27017");
             var database = client.GetDatabase("Treinamento");
-            var collec = database.GetCollection<BsonDocument>("Pedido");
+            var collec = database.GetCollection<BsonDocument>("Produto");
 
-            BsonDocument documento = pedido.ToBsonDocument();
+            BsonDocument documento = produto.ToBsonDocument();
 
             collec.InsertOne(documento);
 
             return true;
         }
 
-        public List<PedidoMongo> WherePedido(string nomepedido)
+        public List<ProdutoMongo> WhereProduto(string nomeproduto)
         {
-            var listOfPedidowhere = new List<PedidoMongo>();
+            var listOfProdutowhere = new List<ProdutoMongo>();
 
             var client = new MongoClient("mongodb://localhost:27017");
             var database = client.GetDatabase("Treinamento");
-            var collec = database.GetCollection<PedidoMongo>("Pedido");
+            var collec = database.GetCollection<ProdutoMongo>("Produto");
 
-            var results = collec.Find(x => x.NomePedido == nomepedido).ToList();
-            listOfPedidowhere = results;
+            var results = collec.Find(x => x.NomeProduto == nomeproduto).ToList();
+            listOfProdutowhere = results;
 
-            return listOfPedidowhere;
+            return listOfProdutowhere;
             
 
         }
 
-        public List<PedidoMongo> LoadPedido()
+        public List<ProdutoMongo> LoadProduto()
         {
-            var listOfPedido = new List<PedidoMongo>();
+            var listOfProduto = new List<ProdutoMongo>();
 
             var client = new MongoClient("mongodb://localhost:27017");
             var database = client.GetDatabase("Treinamento");
-            var collec = database.GetCollection<PedidoMongo>("Pedido");
+            var collec = database.GetCollection<ProdutoMongo>("Produto");
 
             var results = collec.Find(x => true).ToList();
-            listOfPedido = results;
+            listOfProduto = results;
 
             //var filter2 = new BsonDocument();
             //var count = 0;
@@ -77,7 +78,7 @@ namespace Treinamento.Pizzaria
             //    }
             //}
 
-            return listOfPedido;
+            return listOfProduto;
         }
 
 

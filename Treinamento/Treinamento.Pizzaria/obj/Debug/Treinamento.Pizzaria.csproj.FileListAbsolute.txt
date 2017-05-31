@@ -19,12 +19,6 @@ D:\Estudo\Projetos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\bin\Deb
 C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento\Treinamento.Pizzaria\bin\Debug\Treinamento.Pizzaria.exe.config
 C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento\Treinamento.Pizzaria\obj\Debug\Treinamento.Pizzaria.exe
 C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento\Treinamento.Pizzaria\obj\Debug\Treinamento.Pizzaria.pdb
-C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\bin\Debug\Treinamento.Pizzaria.exe.config
-C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\obj\Debug\Treinamento.Pizzaria.exe
-C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\obj\Debug\Treinamento.Pizzaria.pdb
-C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\bin\Debug\Treinamento.Pizzaria.exe
-C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\bin\Debug\Treinamento.Pizzaria.pdb
-C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\obj\Debug\Treinamento.Pizzaria.csprojResolveAssemblyReference.cache
 C:\Users\migue\Source\Repos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\bin\Debug\Treinamento.Pizzaria.exe.config
 C:\Users\migue\Source\Repos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\bin\Debug\Treinamento.Pizzaria.exe
 C:\Users\migue\Source\Repos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\bin\Debug\Treinamento.Pizzaria.pdb
@@ -38,6 +32,9 @@ C:\Users\migue\Source\Repos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzari
 C:\Users\migue\Source\Repos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\obj\Debug\Treinamento.Pizzaria.pdb
 C:\Users\migue\Source\Repos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
 C:\Users\migue\Source\Repos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\obj\Debug\Treinamento.Pizzaria.csprojResolveAssemblyReference.cache
+C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\bin\Debug\Treinamento.Pizzaria.exe.config
+C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\bin\Debug\Treinamento.Pizzaria.exe
+C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\bin\Debug\Treinamento.Pizzaria.pdb
 C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\bin\Debug\MongoDB.Bson.dll
 C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\bin\Debug\MongoDB.Driver.Core.dll
 C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\bin\Debug\MongoDB.Driver.dll
@@ -45,3 +42,6 @@ C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\
 C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\bin\Debug\MongoDB.Bson.xml
 C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\bin\Debug\MongoDB.Driver.xml
 C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\obj\Debug\Treinamento.Pizzaria.csprojResolveAssemblyReference.cache
+C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\obj\Debug\Treinamento.Pizzaria.exe
+C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria\obj\Debug\Treinamento.Pizzaria.pdb

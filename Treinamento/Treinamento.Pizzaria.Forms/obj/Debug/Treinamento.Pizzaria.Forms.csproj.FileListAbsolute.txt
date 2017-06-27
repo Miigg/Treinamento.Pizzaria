@@ -54,3 +54,6 @@ C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\
 C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\bin\Debug\MongoDB.Driver.Core.xml
 C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\obj\Debug\Treinamento.Pizzaria.Forms.exe
 C:\Users\Miguel\Downloads\Treinamento-20170509T125515Z-001\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\obj\Debug\Treinamento.Pizzaria.Forms.pdb
+C:\Users\migue\Source\Repos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\bin\Debug\Treinamento.Pizzaria.exe.config
+C:\Users\migue\Source\Repos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\obj\Debug\Treinamento.Pizzaria.Forms.CadProdutoMongo.resources
+C:\Users\migue\Source\Repos\Treinamento.Pizzaria\Treinamento\Treinamento.Pizzaria.Forms\obj\Debug\Treinamento.Pizzaria.Forms.csproj.CoreCompileInputs.cache

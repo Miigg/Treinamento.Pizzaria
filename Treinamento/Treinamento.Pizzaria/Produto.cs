@@ -39,6 +39,51 @@ namespace Treinamento.Pizzaria
             }
         }
 
+        public bool ModificaProduto(Produto produto)
+        {
+            using (var cn = new SqlConnection())
+            {
+                var cmd = new SqlCommand();
+
+                cn.ConnectionString = System.Configuration.ConfigurationManager.ConnectionStrings["Conexao"].ConnectionString; ;
+                cmd.Connection = cn;
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "UPDATE produto SET nome = @nome,descricao = @descricao,ativo = @ativo WHERE idproduto = @idproduto";
+
+                cmd.Parameters.AddWithValue("@idproduto", produto.IdProduto);
+                cmd.Parameters.AddWithValue("@nome", produto.NomeProduto);
+                cmd.Parameters.AddWithValue("@descricao", produto.DescricaoProduto);
+                cmd.Parameters.AddWithValue("@ativo", produto.Ativo);
+                cn.Open();
+                cmd.ExecuteNonQuery();
+
+                return true;
+            }
+
+        }
+
+        public bool DeletaProduto(Produto produto)
+        {
+            using (var cn = new SqlConnection())
+            {
+                var cmd = new SqlCommand();
+
+                cn.ConnectionString = System.Configuration.ConfigurationManager.ConnectionStrings["Conexao"].ConnectionString; ;
+                cmd.Connection = cn;
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "DELETE produto WHERE idproduto = @idproduto";
+
+                cmd.Parameters.AddWithValue("@idproduto", produto.IdProduto);
+                cn.Open();
+                cmd.ExecuteNonQuery();
+
+
+                return true;
+            }
+
+        }
+
+
         public Produto WhereProduto(int id)
         {
             using (var cn = new SqlConnection())
